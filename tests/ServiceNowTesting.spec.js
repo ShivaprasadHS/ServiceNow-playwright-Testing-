@@ -10,8 +10,8 @@ test('ServiceNow – Create Incident', async ({ browser }) => {
 
   const poManager = new POManager(page);
 
-  const userName = 'hs.shivaprasad@tcs.com';
-  const password = 'Tcs@1234';
+  const userName = '';
+  const password = '';
 
   // -------- Login --------
   const loginPage = poManager.getLoginPage();
