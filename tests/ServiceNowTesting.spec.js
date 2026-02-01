@@ -65,11 +65,11 @@ test('ServiceNow – Create Incident', async ({ browser }) => {
 //     //user credentials
 //     const userName = page.locator("//input[@id = 'username']")
 //     await userName.clear(' ');
-//     await userName.fill("hs.shivaprasad@tcs.com");
+//     await userName.fill("");
 //     const submitBtn = page.locator("//button[@id = 'identify-submit']");
 //     await submitBtn.click();
 //     const password  = page.locator("//input[@id = 'password']");
-//     await password.fill("Tcs@1234");
+//     await password.fill("");
 //     const submit = page.locator("//button[@id = 'challenge-authenticator-submit']");
 //     await submit.click();
 
